@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SandMan Launcher Download</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="ico.ico" type="image/x-icon">
+</head>
+<body>
+  <img src="logo.png" alt="SandManLogo">
+  <button onclick="window.location.href='https://www.dropbox.com/scl/fi/p467xdmxuz9z88vdioep0/SandManUpdater.zip?rlkey=ry1a9gt4wn4o2kru8zhivwf0y&st=8uj9tfjj&dl=1'">Download</button>
+  <button onclick="window.location.href='https://github.com/HubDroider/SandMan'">Github</button>
+
+    <script>
+        function checkPassword() {
+            const passwordInput = document.getElementById("password");
+            const errorMessage = document.getElementById("errorMessage");
+
+            // Sostituisci "passwordCorretta" con la password effettiva
+            const correctPassword = "158788";
+
+            if (passwordInput.value === correctPassword) {
+                // Reindirizza alla pagina desiderata
+                window.location.href = "index.html";
+            }
+        }
+
+        document.oncontextmenu = function() {
+            return false;
+        }
+    </script>
+
+</body>
+</html>
